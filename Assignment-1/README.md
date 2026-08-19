@@ -1,39 +1,20 @@
-# MCA Core Java Programming
+# Assignment 1 - Core Java Basics
 
-Welcome to the Core Java repository for my Master of Computer Applications (MCA) class. This repository serves as a centralized log and collection of all lab work, assignments, and practice programs developed throughout the semester.
+This folder contains the programming solutions for **Assignment 1** of the MCA Core Java class.
 
----
+## 📂 File Index
 
-## 📂 Repository Index & Mapping
+The links below are relative, allowing anyone viewing this folder to directly open the source files:
 
-Below is the directory mapping of the programs currently present in this workspace:
-
-| S.No. | File / Program Name | Description | Key Concept / Classes Covered |
-| :--- | :--- | :--- | :--- |
-| 1 | [Main.java](file:///Users/rohit/code_personal/Mca/Pg_Java/Main.java) | Entrypoint program demonstrating standard input/output in Java. | - [Main](file:///Users/rohit/code_personal/Mca/Pg_Java/Main.java#L4): Main class containing `main` execution point.<br>- [Studentclass](file:///Users/rohit/code_personal/Mca/Pg_Java/Main.java#L12): Handles reading student names, roll numbers, and marks using `java.util.Scanner`. |
-
----
-
-## 🛠️ Getting Started & Compilation
-
-To compile and run any Java file locally, use the standard Java Development Kit (JDK) commands:
-
-### 1. Compilation
-Compile the Java source file to bytecode (`.class` files):
-```bash
-javac Main.java
-```
-
-### 2. Execution
-Run the compiled class (containing the `main` method):
-```bash
-java Main
-```
+| File | Class | Description |
+| :--- | :--- | :--- |
+| [Main.java](Main.java) | [Main](Main.java#L4), [Studentclass](Main.java#L12) | Core demonstration program reading student details. |
+| [problem1.java](problem1.java) | [problem1](problem1.java#L3) | Hardcoded student information printout. |
+| [problem2.java](problem2.java) | [problem2](problem2.java#L2) | Temperature conversion (Celsius to Fahrenheit). |
+| [problem3.java](problem3.java) | [problem3](problem3.java#L4) | Command-line basic arithmetic calculator. |
+| [problem4.java](problem4.java) | [problem4](problem4.java#L3) | Voting eligibility check based on user age. |
+| [problem5.java](problem5.java) | [problem5](problem5.java#L3) | Character-operator based calculator. |
+| [problem6.java](problem6.java) | [problem6](problem6.java#L4) | Multiplication table generator. |
 
 ---
-
-## 📌 Contribution / Organization Guidelines
-When adding new lab exercises or assignments, follow these conventions to keep the repository clean:
-1. **Naming Conventions**: Use `CamelCase` for all file names (e.g., `MatrixMultiplication.java`, `ExceptionHandlingDemo.java`).
-2. **Code Style**: Comment your code with the problem statement and details of inputs/outputs.
-3. **Git Cleanliness**: Make sure not to track compiled `.class` files. A [.gitignore](file:///Users/rohit/code_personal/Mca/Pg_Java/.gitignore) file has been set up to handle this automatically.
+*For general workspace details and compilation guides, refer to the root [README.md](../README.md).*
