@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
-public class problem4 {
+public class Q4VotingEligibility {
     public static void main(String[]args){
         Scanner sc = new Scanner(System.in);
         System.out.println(":enter the age :");

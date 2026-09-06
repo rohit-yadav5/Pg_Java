@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
-public class problem5 {
+public class Q5SimpleCalculator {
     public static void main (String[]args){
         Scanner sc = new Scanner(System.in);
         System.out.println("enter no1 ");
